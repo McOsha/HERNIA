@@ -1,59 +1,86 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="utf-8">
-<style>
 body {
-  background-color: violet;
-}
+  background-color: violet;/* background color */ 
+background image: url ("../Photo/FON.jpg");
 
-h1 {
-  color: white;
+}
+img-constr
+
+h2 {
+  color: darkblue;
+text-shadow/ solid; 2px;
   text-align: center;
 }
+<div>This div element has a height of 70% and a width of 80%.</div>
 
-p {
-  font-family: verdana;
+/*p {
+  font-family: Arial;
   font-size: 20px;
+}*/
+
+
+a {
+color: violet;
 }
-        <link rel="stylesheet" href=""style.css">
-    <title>WHY GOD, WHY?</title>
-    </head>
-    <body>
-            <center><h3>I DON'T KNOW WHAT YOU'VE HEARD ABOUT ME</h3>
-                <h2><i>Well...</i><br>
-                    <button type="button" onclick="alert('NO WAY!')"><big>NOTHING</big></button><br>
-                <hr>
-                So let me sing you the <a href="https://youtu.be/6_g1OBNtCiY?si=yFgZDgyYjXEsY0z-"><sup><b>song</b></sup></a> of my people</h2>
-            <img src="Photo/IMG_5993.jpeg" alt="Thanks god" width="500" height="333">
-            <body background="Photo/FON.jpg">
-                <p>
-                <main>
 
-                    <h2>What is it all about?
-                    <ul>
-                        <li><h3><a href="#C1">Introduction</a></li>
-                      <li><h3><a href="#C2">Here-There</a></li>
-                      <li><h3><a href="#C3">Goodbye</a></li>
-                    </ul>
-                    </h2>
-                                        
-                    <h2 id="C1">INTRO</h2>
-                        <iframe src="Pages/intro.html" height="350" width="1023" title="Iframe Example"></iframe>
+.testgreen {
+color: blueviolet;
+}
 
-                    <h2 id="C2">Here-There</h2>
-                    <p>This chapter explains nothing, but gives more info<br>
-                    Let's play!</p>
-                    <iframe src="Pages/gallery.html" height="444" width="654" title="Iframe Example"></iframe>
+#hueta {
+border: solid olive;
+outline: green solid 10px;
+border-width: 20 px; 5 px;
+margin: 25px 50px 75px 100px;
+padding: 54px;
+}
 
-                    <h2 id="C3">Goodbye</h2>
-                    <h3><p>This chapter means that you've head it all, but you are free to go!</p></h3>
-                    <img src="Photo/BB.jpg" alt="Thanks god" width="500" height="333">
+/* unvisited link */
+a:link {
+  color: olive;
+}
 
-                    <h2 id="C4"><span style="border: 1px solid black"><colour=white>Contact Me!</colour></span></h2>
-                    <iframe src="Pages/contact.html" height="222" width="555" title="Iframe Example"></iframe>
-                    </center>
-                </main>
+/* visited link */
+a:visited {
+  color: green;
+}
 
-    </body>
-</html>
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+a:link {
+  background-color: yellow;
+}
+
+a:visited {
+  background-color: lightblue;
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+}
+
+table, th, td {
+  border: 2px solid;
+}
+#button {
+  background-color: #violet; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
